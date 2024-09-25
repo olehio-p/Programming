@@ -2,10 +2,10 @@ from datetime import datetime
 from typing import Optional
 import uuid
 
-from payment_gateway import PaymentGateway
-from ..projects.project import Project
-from transaction_states import PendingState
-from transaction_states_abc import TransactionState
+from .payment_gateway import PaymentGateway
+from projects.project import Project
+from .transaction_states import PendingState
+from .transaction_states_abc import TransactionState
 
 
 class Transaction:

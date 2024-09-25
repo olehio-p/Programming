@@ -1,4 +1,4 @@
-from transaction_states_abc import TransactionState
+from .transaction_states_abc import TransactionState
 
 
 class PendingState(TransactionState):

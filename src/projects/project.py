@@ -1,6 +1,6 @@
 from datetime import datetime
 from typing import Optional
-from observers import *
+from .observers import Observable
 
 
 class TaggingMixin:
